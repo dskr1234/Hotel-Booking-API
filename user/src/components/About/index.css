@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box ;
+
+}
+.top-container {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image{
+    max-height: 400px;
+    width: 100%;
+    max-width: 600px;
+}

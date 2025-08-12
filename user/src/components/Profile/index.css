@@ -1,0 +1,55 @@
+.profile-name{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.profile-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profile-list{
+    list-style-type: none;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    margin-top: 20px;
+}
+.list-item{
+font-size: large;
+    padding: 10px;  
+}
+.booking-history-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.profile-card{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.1); /* semi-transparent white */
+    backdrop-filter: blur(10px);         /* blur effect */
+    -webkit-backdrop-filter: blur(10px); /* for Safari support */
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
