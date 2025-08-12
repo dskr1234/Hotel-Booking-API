@@ -223,9 +223,12 @@ app.use((err, _req, res, _next) => {
 mongoose.connect(MONGO_URI)
   .then(() => {
     console.log('✅ MongoDB connected');
+    const PORT = process.env.PORT || 5000;
     app.listen(PORT, () => {
-      console.log(`🚀 Server running at http://localhost:${PORT}`);
+    console.log(`Server running on port ${PORT}`);
     });
+
+
   })
   .catch((err) => {
     console.error('Mongo connection error:', err);
